@@ -22,5 +22,6 @@ body {
     border-color:#5f9341;
     padding: 10px;
     box-sizing: border-box;
-    border: 1.5px solid #5f9341;
+    border: 2px solid #5f9341;
+    border-radius: 5px;
 }
