@@ -7,7 +7,7 @@ body {
 
 
 
-#input-btn{
+#input-btn, #clear-btn{
     margin-top: 5px;
     color: white;
     background-color: #5f9341;
@@ -18,9 +18,13 @@ body {
 }
 
 
-#input-btn:hover{
+#input-btn, #clear-btn:hover{
     cursor: pointer;
 }
+
+
+
+
 
 
 #input-el{
