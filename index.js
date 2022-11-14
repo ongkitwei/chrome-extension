@@ -1,11 +1,13 @@
 
 
 //if u dw to write onclick in html can write like that
+//let increase = 0;
 let myLeads = [];
 const inputEl = document.getElementById("input-el") ;
 const inputBtn = document.getElementById("input-btn") ;
 const clearBtn = document.getElementById("clear-btn") ;
 const ulEl = document.getElementById("ul-el") ;
+const imgEl = document.getElementById("imgg")
 
 //localStorage.setItem("myLeads","https://www.youtube.com/watch?v=jS4aFq5-91M&t=20551s");
 //console.log(localStorage.getItem("myLeads")) ;
@@ -57,7 +59,12 @@ function showlist(){
     for( let i =0; i<myLeads.length; i++)
     {
 
-        ulList += `<li><a href="${myLeads[i]}" target="_blank">${myLeads[i]}</a></li>` ;
+        ulList += `<div>
+                        <li>
+                            <a href="${myLeads[i]}" target="_blank">${myLeads[i]}</a>
+                            <img id="imgg" src="rubbish.png" alt="delete">
+                        </li>
+                    </div>` ;
         ulEl.innerHTML = ulList;//use innerHtml to insert html tags in js code
         //alternative way
 
@@ -67,4 +74,7 @@ function showlist(){
        
     }
 }
+
+
+
 

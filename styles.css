@@ -49,6 +49,20 @@ li > a{
 }
 
 
+
 ul{
     padding-left: 3px;
+}
+
+
+
+
+body ul li img{
+    height: 23px;
+}
+
+
+
+body ul li img:hover{
+    cursor:pointer;
 }
