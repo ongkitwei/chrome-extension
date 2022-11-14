@@ -62,7 +62,7 @@ function showlist(){
         ulList += `<div>
                         <li>
                             <a href="${myLeads[i]}" target="_blank">${myLeads[i]}</a>
-                            <img id="imgg" src="rubbish.png" alt="delete">
+                            
                         </li>
                     </div>` ;
         ulEl.innerHTML = ulList;//use innerHtml to insert html tags in js code
